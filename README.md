@@ -12,13 +12,11 @@ Develop an image classification model using transfer learning with the pre-train
 
 
 ## DESIGN STEPS
-### STEP 1:
-</br>
+
 
 ### STEP 1:
 Import required libraries.Then dataset is loaded and define the training and testing dataset.
 ### STEP 2:
-</br>
 
 initialize the model,loss function,optimizer. CrossEntropyLoss for multi-class classification and Adam optimizer for efficient training.
 ### STEP 3:
@@ -28,11 +26,10 @@ Evaluate the model with testing dataset.
 ### STEP 5:
 Make Predictions on New Data.
 
-Write your own steps
-<br/>
+
 
 ## PROGRAM
-Include your code here
+
 ```python
 # Load Pretrained Model and Modify for Transfer Learning
 model = models.vgg19(weights = models.VGG19_Weights.DEFAULT)
@@ -109,7 +106,7 @@ def train_model(model, train_loader,test_loader,num_epochs=10):
 
 ## OUTPUT
 ### Training Loss, Validation Loss Vs Iteration Plot
-Include your plot here
+
 </br>
 </br>
 </br>
